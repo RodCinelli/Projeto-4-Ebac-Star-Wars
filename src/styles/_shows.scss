@@ -45,11 +45,11 @@
         display: flex;
         justify-content: center;
 
-        @media (max-width: 768px) {
+        /*@media (max-width: 768px) {
             white-space: nowrap;
             overflow-x: scroll;
             padding-left: 20px;
-        }
+        }*/
 
         &__button {
             color: variaveis.$corTextoSecundario;
