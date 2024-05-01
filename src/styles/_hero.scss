@@ -3,13 +3,13 @@
 .hero {
     padding: 5.6vw;
     min-height: 80vh;
-    background-image: url(/src/images/vadder_hero_desktop.jpg);
+    background-image: url(../images/vadder_hero_desktop.jpg);
     text-align: center;
     background-size: cover;
     margin-top: -81px;
 
     @media (max-width: 768px) {
-        background-image: url(/src/images/vadder_hero_tablet.jpg);
+        background-image: url(../images/vadder_hero_tablet.jpg);
         padding-top: calc(50vw + 25px);
         background-size: contain;
         background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 
     /* Estilos para dispositivos com telas menores que 768px */
         @media (max-width: 767px) {
-        background-image: url(/src/images/vadder_hero_mobile.jpg);
+        background-image: url(../images/vadder_hero_mobile.jpg);
         padding-top: calc(60vw + 20px);
         background-size: contain;
         background-repeat: no-repeat;
